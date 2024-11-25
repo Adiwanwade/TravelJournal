@@ -9,10 +9,32 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@react-native-async-storage/async-storage": "^2.1.0",
+    "@react-navigation/native": "^7.0.4",
+    "@react-navigation/stack": "^7.0.7",
+    "@reduxjs/toolkit": "^2.3.0",
     "expo": "~52.0.11",
+    "expo-image-picker": "~16.0.3",
+    "expo-location": "~18.0.2",
     "expo-status-bar": "~2.0.0",
     "react": "18.3.1",
-    "react-native": "0.76.3"
+    "react-native": "0.76.3",
+    "react-native-async-storage": "^0.0.1",
+    "react-native-fast-image": "^8.6.3",
+    "react-native-gesture-handler": "^2.21.2",
+    "react-native-image-picker": "^7.1.2",
+    "react-native-linear-gradient": "^2.8.3",
+    "react-native-maps": "^1.18.0",
+    "react-native-paper": "^5.12.5",
+    "react-native-reanimated": "^3.16.2",
+    "react-native-safe-area-context": "^4.14.0",
+    "react-native-screens": "^4.3.0",
+    "react-native-vector-icons": "^10.2.0",
+    "react-redux": "^9.1.2",
+    "redux": "^5.0.1",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^3.1.0",
+    "expo-image-manipulator": "~13.0.5"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
