@@ -91,7 +91,7 @@ const RegisterScreen = ({ navigation }) => {
               <TextInput
                 style={styles.input}
                 placeholder="Enter your email"
-                placeholderTextColor="rgba(255,255,255,0.5)"
+                placeholderTextColor="rgba(255,255,255,0.8)"
                 value={email}
                 onChangeText={setEmail}
                 autoCapitalize="none"
@@ -105,7 +105,7 @@ const RegisterScreen = ({ navigation }) => {
               <TextInput
                 style={styles.input}
                 placeholder="Enter your name"
-                placeholderTextColor="rgba(255,255,255,0.5)"
+                placeholderTextColor="rgba(255,255,255,0.8)"
                 value={name}
                 onChangeText={setName}
                 autoCapitalize="none"
@@ -119,7 +119,7 @@ const RegisterScreen = ({ navigation }) => {
               <TextInput
                 style={styles.input}
                 placeholder="Enter your password"
-                placeholderTextColor="rgba(255,255,255,0.5)"
+                placeholderTextColor="rgba(255,255,255,0.8)"
                 value={password}
                 onChangeText={setPassword}
                 secureTextEntry
@@ -132,7 +132,7 @@ const RegisterScreen = ({ navigation }) => {
               <TextInput
                 style={styles.input}
                 placeholder="Confirm your password"
-                placeholderTextColor="rgba(255,255,255,0.5)"
+                placeholderTextColor="rgba(255,255,255,0.8)"
                 value={confirmPassword}
                 onChangeText={setConfirmPassword}
                 secureTextEntry
@@ -238,7 +238,7 @@ const styles = StyleSheet.create({
     letterSpacing: 0.5,
   },
   input: {
-    backgroundColor: 'rgba(147, 51, 234, 0.3)',
+    backgroundColor: 'rgba(147, 51, 234, 0.65)',
     borderRadius: 12,
     padding: Platform.OS === 'ios' ? 16 : 12,
     fontSize: 16,
